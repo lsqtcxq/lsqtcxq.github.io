@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>学习使我快乐</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  <meta property="og:type" content="website">
+<meta property="og:title" content="学习使我快乐">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
+<meta property="og:site_name" content="学习使我快乐">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="学习使我快乐">
+  
+    <link rel="alternate" href="/atom.xml" title="学习使我快乐" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/images/default-avatar.webp">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/highlight.css">
+  <script>
+  let antiquityStorage = window.sessionStorage.getItem('antiquitySessionStorage');
+  if (antiquityStorage == '' || antiquityStorage == null) {
+    var antiquityLoader = '<div id="loaderbox"><div class="loader"><div class="load-roll"><div class="load-top"></div><div class="load-right"></div><div class="load-bottom"></div></div></div></div>';
+    document.write(antiquityLoader);
+    document.body.style.overflow = 'hidden'
+  }
+  </script>
+</head>
+</html>
+<body>
+  <div id="fullpage" class="mobile-nav-right">
+    
+      <div id="wrapper" title="图片来自网络">
+    
+    
+      <header id="header">
+  <div id="nav-toggle" class="nav-toggle"></div>
+  <div class="head-box global-width">
+    <nav class="nav-box nav-right">
+      
+        <a class="nav-item" href="/" title
+        
+        >首页</a>
+      
+        <a class="nav-item" href="/archives" title
+        
+        >归档</a>
+      
+    </nav>
+  </div>
+</header>
+      <div id="middlecontent" title class="global-width sidebar-right">
+        <section id="main">
+  
+    <article id="post-Url编码" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/13/Url编码/">Url编码</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2018/03/13/Url编码/" class="article-date">
+  <time datetime="2018-03-13T08:22:33.000Z" itemprop="datePublished">2018-03-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/JavaScript/">JavaScript</a>
+  </div>
+
+    
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js经验/">js经验</a></li></ul>
+
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <p>c#实现Javascript的encodeURIComponent()函数<br>.net下的实现方法:<br>.net采用<br>System.Text;</p>
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://docs.microsoft.com/zh-cn/dotnet/api/system.web.httputility.urldecode?redirectedfrom=MSDN&view=netframework-4.8#System_Web_HttpUtility_UrlDecode_System_String_System_Text_Encoding_" target="_blank" rel="noopener">UrlDecode(String, Encoding)</a></td>
+<td align="left">使用指定的编码对象将 URL 编码的字符串转换为已解码的字符串。</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">Name</th>
+<th align="center">显示名称</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">gb2312</td>
+<td align="center">简体中文 (GB2312)</td>
+</tr>
+<tr>
+<td align="center">utf-8</td>
+<td align="center">Unicode (UTF-8)</td>
+</tr>
+</tbody></table>
+<p>国内各搜索引擎均采用GB2312，使用此类搜索引擎时，编码为：</p>
+<p>HttpUtility.UrlEncode(String, System.Text.Encoding.GetEncoding(936))</p>
+
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
+    <article id="post-发邮件" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/12/27/发邮件/">C#发邮件</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2017/12/27/发邮件/" class="article-date">
+  <time datetime="2017-12-27T10:26:36.000Z" itemprop="datePublished">2017-12-27</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/C/">C#</a>
+  </div>
+
+    
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/邮件问题/">邮件问题</a></li></ul>
+
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <h2 id="1-定义发邮件的参数类"><a href="#1-定义发邮件的参数类" class="headerlink" title="1.定义发邮件的参数类"></a>1.定义发邮件的参数类</h2><pre><code>public class EmailObj
+{
+    public string FromAddress = &quot;xxx@qq.cn&quot;; //发送邮箱
+    public string FromPassword = &quot;123456&quot;;//发送邮箱密码
+    public List&lt;string&gt; ToAddress = new List&lt;string&gt;(); //接收邮箱
+    public List&lt;string&gt; Attachments = new List&lt;string&gt;();//需要发送的文件路径（物理路径）
+    public string Subject = &quot;&quot;;//标题
+    public string Body = &quot;&quot;;//内容
+    public int UserID = -1;
+}</code></pre><hr>
+<h2 id="2-添加发邮件的方法"><a href="#2-添加发邮件的方法" class="headerlink" title="2.添加发邮件的方法"></a>2.添加发邮件的方法</h2><pre><code>public class SendEmailHelper
+{
+    public void SendEmail(EmailObj obj,string imgPath=&quot;&quot;)
+    {
+        //if (ConfigurationManager.AppSettings[&quot;IsM&quot;] == &quot;NO&quot;)
+        //  return;
+        MailMessage mm = new MailMessage();
+        mm.From = new MailAddress(obj.FromAddress);      
+       /*
+        if (ConfigurationManager.AppSettings[&quot;IsSendM&quot;] != null &amp;&amp; ConfigurationManager.AppSettings[&quot;IsSendM&quot;] != &quot;&quot;)
+         {
+
+            obj.ToAddress.ForEach(toAddress =&gt;
+           {
+                mm.To.Add(new MailAddress(ConfigurationManager.AppSettings[&quot;IsSendM&quot;]));
+            });
+        }
+        else
+        */
+        {
+
+            obj.ToAddress.ForEach(toAddress =&gt;
+            {
+                mm.To.Add(new MailAddress(toAddress));
+            });
+        }
+        if (obj.Attachments.Count &gt; 0)
+        {
+            obj.Attachments.ForEach(attachment =&gt;
+            {
+                Attachment vi = new Attachment(attachment);//附件，附件地址
+                mm.Attachments.Add(vi);//邮件添加附件
+            });
+        }
+        //mm.CC.Add(new MailAddress(MailTO));
+        mm.Subject = obj.Subject;
+        mm.IsBodyHtml = true;
+        mm.Body = obj.Body;
+        mm.BodyEncoding = Encoding.GetEncoding(936);
+        AlternateView htmlBody = AlternateView.CreateAlternateViewFromString(mm.Body, null, &quot;text/html&quot;);
+        //插入图片
+        if (imgPath != &quot;&quot;)
+        {
+            for (int i = 0; i &lt; imgPath.Split(&apos;*&apos;).Length; i++)
+            {
+                LinkedResource lrImage = new LinkedResource(string.Format(&quot;{0}{1}&quot;, SystemHelper.SystemTemplatePhysicalPath , imgPath.Split(&apos;*&apos;)[i]), &quot;image/gif&quot;);//图片本地绝对路径
+                lrImage.ContentId = string.Format(&quot;Path{0}&quot;,i+1); //此处的ContentId 对应 htmlBodyContent 内容中的 cid: ，如果设置不正确，请不会显示图片   
+                htmlBody.LinkedResources.Add(lrImage);
+            }
+        }
+        mm.AlternateViews.Add(htmlBody);
+
+        SmtpClient sc = new SmtpClient();
+        sc.Host = &quot;smtp.exmail.qq.com&quot;; //这是qq邮件的smtp服务器，好像是smtp.qq.com，如果不对，你自己查一下，
+        //sc.UseDefaultCredentials = true;//winform中不受影响，asp.net中，false表示不发送身份严正信息 
+        //smtpClient.EnableSsl = true;//如果服务器不支持ssl则报，服务器不支持安全连接 错误 
+        sc.Credentials = new System.Net.NetworkCredential(obj.FromAddress, obj.FromPassword);
+        //sc.DeliveryMethod = SmtpDeliveryMethod.Network;
+        try
+        {
+            sc.Send(mm);
+        }
+        catch (Exception)
+        {
+        }
+        finally
+        {
+        }
+
+    }
+
+}</code></pre><hr>
+<h2 id="3-调用"><a href="#3-调用" class="headerlink" title="3 调用"></a>3 调用</h2><pre><code>EmailObj einfo = new EmailObj();
+List&lt;string&gt; address = new List&lt;string&gt;();
+address.Add(dtPerson.Rows[0][&quot;email_Address&quot;].ToString());//正式地址
+//address.Add(ConfigurationManager.AppSettings[&quot;IsSendM&quot;]);//测试地址
+einfo.ToAddress = address;
+einfo.Subject = &quot;标题&quot;;
+// einfo.UserID = myInfo.UserID;
+
+//List&lt;string&gt; Attachments = new List&lt;string&gt;();
+//Attachments.Add(&quot;绝对地址&quot;);//测试附件,&quot;D:/aa.txt&quot;
+//einfo.Attachments = Attachments;
+einfo.Body = &quot;&quot;;
+SendEmailHelper send = new SendEmailHelper();
+//send.SendEmail(einfo, &quot;FPQCode1.png*FPQCode1.png&quot;);
+send.SendEmail(einfo);</code></pre><hr>
+
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
+    <article id="post-jquery单选、复选、下拉框" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/10/25/jquery单选、复选、下拉框/">jquery单选、复选、下拉框</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2016/10/25/jquery单选、复选、下拉框/" class="article-date">
+  <time datetime="2016-10-25T10:12:17.000Z" itemprop="datePublished">2016-10-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/JavaScript/">JavaScript</a>
+  </div>
+
+    
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js经验/">js经验</a></li></ul>
+
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <p>jquery radio取值，checkbox取值，select取值，radio选中，checkbox选中，select选中，常用的方法</p>
+<div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">获 取一组radio被选中项的值 </span><br><span class="line">var item = $(&apos;input[name=items][checked]&apos;).val(); </span><br><span class="line">获 取select被选中项的文本 </span><br><span class="line">var item = $(&quot;select[name=items] option[selected]&quot;).text(); </span><br><span class="line">select下拉框的第二个元素为当前选中值 </span><br><span class="line">$(&apos;#select_id&apos;)[0].selectedIndex = 1; </span><br><span class="line">radio单选组的第二个元素为当前选中值 </span><br><span class="line">$(&apos;input[name=items]&apos;).get(1).checked = true; </span><br><span class="line">获取值： </span><br><span class="line">文本框，文本区域：$(&quot;#txt&quot;).attr(&quot;value&quot;)； </span><br><span class="line">多选框 checkbox：$(&quot;#checkbox_id&quot;).attr(&quot;value&quot;)； </span><br><span class="line">单选组radio：   $(&quot;input[type=radio][checked]&quot;).val(); </span><br><span class="line">下拉框select： $(&apos;#sel&apos;).val(); </span><br><span class="line">控制表单元素： </span><br><span class="line">文本框，文本区域：$(&quot;#txt&quot;).attr(&quot;value&quot;,&apos;&apos;);//清空内容 </span><br><span class="line">$(&quot;#txt&quot;).attr(&quot;value&quot;,&apos;11&apos;);//填充内容 </span><br><span class="line">多选框checkbox： $(&quot;#chk1&quot;).attr(&quot;checked&quot;,&apos;&apos;);//不打勾 </span><br><span class="line">$(&quot;#chk2&quot;).attr(&quot;checked&quot;,true);//打勾 </span><br><span class="line">if($(&quot;#chk1&quot;).attr(&apos;checked&apos;)==undefined) //判断是否已经打勾 </span><br><span class="line">单选组 radio：    $(&quot;input[type=radio]&quot;).attr(&quot;checked&quot;,&apos;2&apos;);//设置value=2的项目为当前选中项 </span><br><span class="line">下拉框 select：   $(&quot;#sel&quot;).attr(&quot;value&quot;,&apos;-sel3&apos;);//设置value=-sel3的项目为当前选中项 </span><br><span class="line">$(&quot;&lt;option value=&apos;1&apos;&gt;1111&lt;/option&gt;&lt;option value=&apos;2&apos;&gt;2222&lt;/option&gt;&quot;).appendTo(&quot;#sel&quot;)//添加下拉框的option </span><br><span class="line">$(&quot;#sel&quot;).empty()；//清空下拉框</span><br></pre></td></tr></table></figure></div>
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
+    <article id="post-jquery操作select" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/10/25/jquery操作select/">jquery操作select的各种方法</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2016/10/25/jquery操作select/" class="article-date">
+  <time datetime="2016-10-25T06:20:12.000Z" itemprop="datePublished">2016-10-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/JavaScript/">JavaScript</a>
+  </div>
+
+    
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js经验/">js经验</a></li></ul>
+
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <p>jquery操作select(增加，删除，清空)  </p>
+<div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">$(&quot;#select_id&quot;).change(function()&#123;//code...&#125;); //为Select添加事件，当选择其中一项时触发</span><br><span class="line"> </span><br><span class="line">var checkText=$(&quot;#select_id&quot;).find(&quot;option:selected&quot;).text(); //获取Select选择的</span><br><span class="line"> </span><br><span class="line">var checkValue=$(&quot;#select_id&quot;).val(); //获取Select选择的Value</span><br><span class="line"> </span><br><span class="line">var checkIndex=$(&quot;#select_id &quot;).get(0).selectedIndex; //获取Select选择的索引值</span><br><span class="line"> </span><br><span class="line">var maxIndex=$(&quot;#select_id option:last&quot;).attr(&quot;index&quot;); //获取Select最大的索引值</span><br><span class="line"> </span><br><span class="line">jQuery添加/删除Select的Option项：</span><br><span class="line"> </span><br><span class="line">$(&quot;#select_id&quot;).append(&quot;&lt;option value=&apos;Value&apos;&gt;Text&lt;/option&gt;&quot;); //为Select追加一个Option(下拉项)</span><br><span class="line"> </span><br><span class="line">$(&quot;#select_id&quot;).prepend(&quot;&lt;option value=&apos;0&apos;&gt;请选择&lt;/option&gt;&quot;); //为Select插入一个Option(第一个位置)</span><br><span class="line"> </span><br><span class="line">$(&quot;#select_id option:last&quot;).remove(); //删除Select中索引值最大Option(最后一个)</span><br><span class="line"> </span><br><span class="line">$(&quot;#select_id option[index=&apos;0&apos;]&quot;).remove(); //删除Select中索引值为0的Option(第一个)</span><br><span class="line"> </span><br><span class="line">$(&quot;#select_id option[value=&apos;3&apos;]&quot;).remove(); //删除Select中Value=&apos;3&apos;的Optiona</span><br><span class="line"> </span><br><span class="line">$(&quot;#select_id option[text=&apos;4&apos;]&quot;).remove(); //删除Select中Text=&apos;4&apos;的Optiona</span><br><span class="line"> </span><br><span class="line">内容清空：$(&quot;#charCity&quot;).empty();</span><br></pre></td></tr></table></figure></div>
+
+<p> jQuery获取Select选择的Text和Value:<br> <div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$(&quot;#select_id&quot;).change(function()&#123;//code...&#125;); //为Select添加事件，当选择其中一项时触发</span><br><span class="line"> </span><br><span class="line">var checkText=$(&quot;#select_id&quot;).find(&quot;option:selected&quot;).text(); //获取Select选择的text</span><br><span class="line"> </span><br><span class="line">var checkValue=$(&quot;#select_id&quot;).val(); //获取Select选择的Value</span><br><span class="line"> </span><br><span class="line">var checkIndex=$(&quot;#select_id &quot;).get(0).selectedIndex; //获取Select选择的索引值</span><br><span class="line"> </span><br><span class="line">var maxIndex=$(&quot;#select_id option:last&quot;).attr(&quot;index&quot;); //获取Select最大的索引值</span><br></pre></td></tr></table></figure></div></p>
+<p> select 标签操作<br> <div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$(&quot;.selector&quot;).val(&quot;pxx&quot;);//设置value为pxx的项选中</span><br><span class="line">$(&quot;.selector&quot;).find(&quot;option[text=&apos;pxx&apos;]&quot;).attr(&quot;selected&quot;,true);//设置text为pxx的项选中</span><br><span class="line">$(&quot;.selector&quot;).val();//获取当前选中项的value</span><br><span class="line">$(&quot;.selector&quot;).find(&quot;option:selected&quot;).text();//获取当前选中项的text</span><br></pre></td></tr></table></figure></div></p>
+<p> select的级联，即第二个select的值随着第一个select选中的值变化<br> <div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"> $(&quot;.selector1&quot;).change(function()&#123;</span><br><span class="line">     // 先清空第二个</span><br><span class="line">      $(&quot;.selector2&quot;).empty();</span><br><span class="line">     // 实际的应用中，这里的option一般都是用循环生成多个了</span><br><span class="line">      var option = $(&quot;&lt;option&gt;&quot;).val(1).text(&quot;pxx&quot;);</span><br><span class="line">      $(&quot;.selector2&quot;).append(option);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></div></p>
+
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/">&laquo; 上一页</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
+
+</section>
+        <aside id="sidebar">
+  
+    <div class="widget-box">
+  <div class="avatar-box">
+    <img class="avatar" src="/images/default-avatar.webp" title="图片来自网络"></img>
+    <h3 class="avatar-name">
+      
+        天才小聪明
+      
+    </h3>
+    <p class="avatar-slogan">
+      天才有时候也要学习。
+    </p>
+  </div>
+</div>
+
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/C/">C#</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/浏览器问题/">浏览器问题</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/js经验/">js经验</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/office组件/">office组件</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/下载文件/">下载文件</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/插件/">插件</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/统计图/">统计图</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/邮件问题/">邮件问题</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/js经验/" style="font-size: 20px;">js经验</a> <a href="/tags/office组件/" style="font-size: 16.67px;">office组件</a> <a href="/tags/下载文件/" style="font-size: 10px;">下载文件</a> <a href="/tags/插件/" style="font-size: 13.33px;">插件</a> <a href="/tags/统计图/" style="font-size: 10px;">统计图</a> <a href="/tags/邮件问题/" style="font-size: 10px;">邮件问题</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">六月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">一月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">八月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">五月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">三月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">十二月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">十月 2016</a></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/06/27/统计图表/">统计图表</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/27/下载文件/">下载文件</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/27/Test/">Test</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/27/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2019/01/22/浏览器的插件问题2/">浏览器的插件问题2</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+      <div class="widget-box">
+    <h3 class="widget-title">友链</h3>
+    <div class="widget">
+      
+        <a style="display: block;" href="https://www.baidu.com/" title target='_blank'
+        >百度</a>
+      
+        <a style="display: block;" href="http://www.zhuozhengsoft.com/Technical/" title target='_blank'
+        >卓正</a>
+      
+        <a style="display: block;" href="https://echarts.baidu.com/echarts2/doc/example.html/" title target='_blank'
+        >Echarts统计图表</a>
+      
+        <a style="display: block;" href="https://www.baidu.com/" title target='_blank'
+        >链接1</a>
+      
+        <a style="display: block;" href="https://hzzxj.github.io/" title target='_blank'
+        >链接2</a>
+      
+    </div>
+  </div>
+
+  
+</aside>
+      </div>
+      <footer id="footer">
+  <div class="foot-box global-width">
+    &copy; 2019 天才小聪明 &nbsp;&nbsp;
+    驱动于 <a href="http://hexo.io/" target="_blank">Hexo</a>
+    &nbsp;|&nbsp;主题 <a href="https://github.com/yiluyanxia/hexo-theme-antiquity">antiquity</a>
+    <br>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">不蒜子告之   阁下是第<span id="busuanzi_value_site_pv"></span>个访客</span>
+  </div>
+</footer>
+      <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script>
+if (!window.jQuery) {
+var script = document.createElement('script');
+script.src = "/js/jquery-2.0.3.min.js";
+document.body.write(script);
+}
+</script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+    </div>
+    <nav id="mobile-nav" class="mobile-nav-box">
+  <div class="mobile-nav-img mobile-nav-top"></div>
+  
+    <a href="/" class="mobile-nav-link">首页</a>
+  
+    <a href="/archives" class="mobile-nav-link">归档</a>
+  
+  <div class="mobile-nav-img  mobile-nav-bottom"></div>
+</nav>    
+  </div>
+</body>
+</html>

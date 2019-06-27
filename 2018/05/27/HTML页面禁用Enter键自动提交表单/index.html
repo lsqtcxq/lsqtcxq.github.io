@@ -5,22 +5,23 @@
   
 
   
-  <title>Test | 学习使我快乐</title>
+  <title>HTML页面禁用Enter键自动提交表单 | 学习使我快乐</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   
   
-  <meta name="description" content="附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面">
+  <meta name="description" content="在HTML页里面由于使用了form，常常需要禁用enter提交表单。因为内容页或者母版页自身有如果有type=”submit”的button,当textbox聚焦时，按下enter都会触发表单的默认提交（不论是IE还是firefox），于是需要在onkeydown中监听用户的按键。实际测试，IE8中导致表单提交的不确定因素太多，点击表单的table中的td都会触发表单提交，而firefox则不会；">
+<meta name="keywords" content="js经验">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Test">
-<meta property="og:url" content="http://yoursite.com/2019/06/27/Test/index.html">
+<meta property="og:title" content="HTML页面禁用Enter键自动提交表单">
+<meta property="og:url" content="http://yoursite.com/2018/05/27/HTML页面禁用Enter键自动提交表单/index.html">
 <meta property="og:site_name" content="学习使我快乐">
-<meta property="og:description" content="附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面">
+<meta property="og:description" content="在HTML页里面由于使用了form，常常需要禁用enter提交表单。因为内容页或者母版页自身有如果有type=”submit”的button,当textbox聚焦时，按下enter都会触发表单的默认提交（不论是IE还是firefox），于是需要在onkeydown中监听用户的按键。实际测试，IE8中导致表单提交的不确定因素太多，点击表单的table中的td都会触发表单提交，而firefox则不会；">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-27T10:26:46.868Z">
+<meta property="og:updated_time" content="2019-06-27T09:59:43.235Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Test">
-<meta name="twitter:description" content="附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面">
+<meta name="twitter:title" content="HTML页面禁用Enter键自动提交表单">
+<meta name="twitter:description" content="在HTML页里面由于使用了form，常常需要禁用enter提交表单。因为内容页或者母版页自身有如果有type=”submit”的button,当textbox聚焦时，按下enter都会触发表单的默认提交（不论是IE还是firefox），于是需要在onkeydown中监听用户的按键。实际测试，IE8中导致表单提交的不确定因素太多，点击表单的table中的td都会触发表单提交，而firefox则不会；">
   
     <link rel="alternate" href="/atom.xml" title="学习使我快乐" type="application/atom+xml">
   
@@ -65,24 +66,30 @@
   </div>
 </header>
       <div id="middlecontent" title class="global-width sidebar-right">
-        <section id="main"><article id="post-Test" class="article global-container article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-HTML页面禁用Enter键自动提交表单" class="article global-container article-type-post" itemscope itemprop="blogPost">
   
     <header class="article-header">
       
   
     <h1 class="article-title" itemprop="name">
-      Test
+      HTML页面禁用Enter键自动提交表单
     </h1>
   
 
     </header>
   
   <div class="article-meta">
-    <a href="/2019/06/27/Test/" class="article-date">
-  <time datetime="2019-06-27T03:49:27.000Z" itemprop="datePublished">2019-06-27</time>
+    <a href="/2018/05/27/HTML页面禁用Enter键自动提交表单/" class="article-date">
+  <time datetime="2018-05-27T02:28:27.000Z" itemprop="datePublished">2018-05-27</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/JavaScript/">JavaScript</a>
+  </div>
+
     
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js经验/">js经验</a></li></ul>
+
   </div>
   
     <span id="busuanzi_container_page_pv">
@@ -94,25 +101,13 @@
     
     <div class="article-content article-content-cloud" itemprop="articleBody">
       
-        <h1 id="111"><a href="#111" class="headerlink" title="111"></a>111</h1><h2 id="222"><a href="#222" class="headerlink" title="222"></a>222</h2><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
-<p>11111111</p>
-</blockquote>
-<p>1</p>
-<pre><code>11
-    adasdasdas
-    adadasdas</code></pre><p><strong>asdad</strong></p>
-<h2 id="vvvvv"><a href="#vvvvv" class="headerlink" title="vvvvv"></a><strong>vvvvv</strong></h2><p>使用github pages服务搭建博客的好处有：</p>
-<ol>
-<li>全是静态文件，访问速度快；</li>
-<li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li>
-<li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；<a id="more"></a></li>
-<li>数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；</li>
-<li>博客内容可以轻松打包、转移、发布到其它平台；</li>
-<li>等等；</li>
-</ol>
+        <p>在HTML页里面由于使用了form，常常需要禁用enter提交表单。因为内容页或者母版页自身有如果有type=”submit”的button,当textbox聚焦时，按下enter都会触发表单的默认提交（不论是IE还是firefox），于是需要在onkeydown中监听用户的按键。实际测试，IE8中导致表单提交的不确定因素太多，点击表单的table中的td都会触发表单提交，而firefox则不会；</p>
 <hr>
-<p>以下是代码</p>
-<div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">adadasugdagdhjasgdasgdhjasgdhjasgdhjagdjhasgdhjasgdhjasgdjh</span><br><span class="line">adasdjashdhaskjdhaskjd</span><br></pre></td></tr></table></figure></div>
+<p>对于IE:</p>
+<p>只有当事件源是TEXTAREA时才return true，允许默认动作；其他元素全部return false，禁止表单提交和任何响应。</p>
+<p>对于firefox:</p>
+<p> 只有当事件源是INPUT时才return false禁止表单默认动作；而其他元素则return true允许默认动作，比如textarea的多行输入。</p>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1> <div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"> &lt;script language=&quot;javascript&quot; type=&quot;text/javascript&quot;&gt;</span><br><span class="line"> //禁用Enter键表单自动提交</span><br><span class="line">        document.onkeydown = function(event) &#123;</span><br><span class="line">            var target, code, tag;</span><br><span class="line">            if (!event) &#123;</span><br><span class="line">                event = window.event; //针对ie浏览器</span><br><span class="line">                target = event.srcElement;</span><br><span class="line">                code = event.keyCode;</span><br><span class="line">                if (code == 13) &#123;</span><br><span class="line">                    tag = target.tagName;</span><br><span class="line">                    if (tag == &quot;TEXTAREA&quot;) &#123; return true; &#125;</span><br><span class="line">                    else &#123; return false; &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            else &#123;</span><br><span class="line">                target = event.target; //针对遵循w3c标准的浏览器，如Firefox</span><br><span class="line">                code = event.keyCode;</span><br><span class="line">                if (code == 13) &#123;</span><br><span class="line">                    tag = target.tagName;</span><br><span class="line">                    if (tag == &quot;INPUT&quot;) &#123; return false; &#125;</span><br><span class="line">                    else &#123; return true; &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></div>
 
 
       
@@ -128,11 +123,11 @@
 <nav id="article-nav">
   <div class="article-nav-block">
     
-      <a href="/2019/06/27/下载文件/" id="article-nav-newer" class="article-nav-link-wrap">
+      <a href="/2018/08/27/office组件—-Word/" id="article-nav-newer" class="article-nav-link-wrap">
         <strong class="article-nav-caption"></strong>
         <div class="article-nav-title">
           
-            下载文件
+            office组件—-Word
           
         </div>
       </a>
@@ -140,8 +135,8 @@
   </div>
   <div class="article-nav-block">
     
-      <a href="/2019/06/27/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-        <div class="article-nav-title">Hello World</div>
+      <a href="/2018/05/22/浏览器的插件问题1/" id="article-nav-older" class="article-nav-link-wrap">
+        <div class="article-nav-title">浏览器的插件问题1</div>
         <strong class="article-nav-caption"></strong>
       </a>
     
